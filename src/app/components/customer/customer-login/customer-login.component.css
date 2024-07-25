@@ -1,0 +1,100 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.ftco-section {
+  background-image: url('/src/assets/images/picin.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+}
+
+.container-fluid {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.heading-section {
+  font-size: 2.5em;
+  margin-bottom: 30px;
+}
+
+.login-wrap {
+  background: black;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+.error-message {
+  color: red;
+  font-size: 0.9em;
+}
+
+.btn-primary {
+  background-image: linear-gradient(to right, #5e5656 5%, black 100%);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-image: linear-gradient(to right, black 5%, #5e5656 100%);
+}
+
+.bottom a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.bottom a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .container-fluid {
+      padding: 30px;
+  }
+  .heading-section {
+      font-size: 2em;
+  }
+}
+
+@media (max-width: 576px) {
+  .container-fluid {
+      padding: 20px;
+  }
+  .heading-section {
+      font-size: 1.5em;
+  }
+  .login-wrap {
+      padding: 20px;
+  }
+}

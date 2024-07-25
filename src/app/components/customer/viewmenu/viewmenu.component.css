@@ -1,0 +1,56 @@
+.menu-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.logo{
+    margin-left: 0px;
+    margin-top: 8px;
+    width: 50px;
+    height: 50px;
+   
+  }
+
+.menu-container {
+    border: 1px solid #393737;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    background-color: rgba(207, 191, 191, 0.457);
+    border-radius: 10px; 
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.menu-image {
+    max-width: 100%;
+    max-height: 150px; 
+    border-radius: 15px;
+    height: auto;
+}
+
+.menu-item {
+    margin-top: 10px;
+}
+
+.menu-price {
+    color: #111111;
+    font-weight: bold;
+}
+.spacer {
+    flex: 1 1 auto;
+  }
+    
+
+  .atu-btn-submit {
+    background-color: #f8527e;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .atu-btn-submit:hover {
+    background-color: #4770c3;
+  }

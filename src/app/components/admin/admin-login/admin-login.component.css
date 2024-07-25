@@ -1,0 +1,123 @@
+/* Background image styles */
+
+  
+  /* Add other styles as needed for the form elements and layout */
+  /*.signin-form {
+    padding: 12px 20px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+  }*/
+  
+  /* Style the submit button */
+  /*.submit {
+    background-image: linear-gradient(to right, #020202 5%, black 100%);
+    margin-top: 20px;
+    color: white; /* Text color for the button */
+  /*}*/
+  
+  /* Style the link in the bottom paragraph */
+  /*.bottom a {
+    color: black;
+    text-decoration: none;
+    padding-left: 5px;
+  }
+  strong{
+    color: whitesmoke;
+  }
+  .heading-section{
+    color: whitesmoke;
+  }
+  */
+
+
+  /* customer-login.component.css */
+
+.carousel-inner img {
+  width: 100%;
+  height: auto;
+}
+
+.ftco-section {
+  background-image: url('/src/assets/images/adminlogin.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+  padding-top: 10vh;
+}
+
+.container-fluid {
+  padding: 20px;
+}
+
+.heading-section {
+  margin-top: 20px;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.login-wrap {
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.form-control {
+  background: #333;
+  border: none;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.form-control::placeholder {
+  color: #999;
+}
+
+.btn-primary {
+  background: linear-gradient(to right, #5e5656 5%, black 100%);
+  border: none;
+}
+
+a {
+  color: #fff;
+}
+
+a:hover {
+  color: #ddd;
+}
+
+.error-message {
+  color: red;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+  .ftco-section {
+    height: auto;
+    padding-top: 5vh;
+  }
+
+  .heading-section {
+    font-size: 2rem;
+  }
+
+  .login-wrap {
+    padding: 15px;
+  }
+
+  .form-control {
+    font-size: 1rem;
+  }
+
+  .btn-primary {
+    font-size: 1rem;
+  }
+}

@@ -1,0 +1,59 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" >
+<link rel="stylesheet"
+href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@700&display=swap" rel="stylesheet">
+
+<body>
+    <header>
+        <a href="#" class="logo"><img src="../../../assets/images/Brown.png" alt="" ></a>
+
+        <ul class="navmenu">
+            <li ><a href="#">HOME</a> </li>
+            <li ><a routerLink="/aboutus">ABOUT US</a> </li>
+            <li ><a routerLink="/customer/login">LOGIN</a> </li>
+            <li ><a routerLink="/admin/login">ADMIN</a> </li>
+           
+        </ul>
+
+        <div class="nav-icon">
+            <a href="#" class="btn">Contact</a>
+            <div class="bx bx-menu" id="menu-icon"></div>
+
+        </div>
+    </header>
+           <section class="home">
+            <div class="home-text">
+                
+                <h4>Best in Restaurant</h4>
+                <h1>BBQ Chicken <span>Salad</span> with Creamy Avacado</h1>
+                <p> a cookout in which food is cooked over an open fire; especially a whole animal carcass roasted on a spit.</p>
+
+                <div class="main-btn">
+                    <a routerLink="/customer/login" class="btn1">Order Now</a>
+                   <!--<a href="#" class="btn2" ><span><i class='bx bx-play'></i></span>Watch video</a> -->
+                    <a href="../../../assets/videos/Food slow motion.mp4" class="btn2"  target="_blank"><span><i class='bx bx-play'></i></span>Watch video</a>
+
+                 
+
+                </div>
+                   
+            </div>
+            <div class="image">
+                <img src="assets/images/baner.png"alt="">
+
+               </div>
+
+           </section>
+</body>
+
+
+<script>
+    document.getElementById('menu-icon').addEventListener('click', function() {
+        document.querySelector('.navmenu').classList.toggle('active');
+    });
+    </script>
+
+  
